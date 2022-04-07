@@ -1,0 +1,57 @@
+@media only screen  and (max-device-width: 300px)   {
+ body {
+        background-color: red;
+        font-size: small;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        color: rgb(221, 255, 0);
+       
+    }
+    #medium, #larger {
+           
+    }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 768px) {
+    body {
+        background: green;
+        font-size: medium;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        
+
+    }
+    #small {
+        width: 66%;
+        margin: 0 auto;
+    }
+
+    #medium {
+        width: 33%;
+        margin: 0 auto;
+    }
+
+    #large {
+        width: 100%;
+    }
+        
+}
+
+@media only screen and (min-device-width: 768px)  {
+    body {
+        background: blue;
+        font-size: larger;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        color: white;
+        display: flex;
+      
+    }
+    #small, #medium {
+       
+    }
+}
